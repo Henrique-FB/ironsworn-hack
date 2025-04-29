@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects - Henrique Boldrin</title>
+  <link rel="stylesheet" href="../assets/styles/asset-card-list.css" />
+</head>
+<body>
+
+
+  <div class="main-content">
+
+   {{ content }}
+    
+    </div>
+
+
+    {% assign all_asset_cards = site.pages | where_exp: "item", "item.path contains 'asset-cards/'" %}
+    {% assign all_asset_cards = all_asset_cards | sort: 'type' %}
+
+
+    <div class="asset-grid">
+        {% for asset_card in all_asset_cards %}
+          <div class="asset-card">
+            <div class="header">
+              <p class="type">{{ asset_card.type }}</p>
+              <h1>{{ asset_card.title }}</h1>
+            <hr>
+            {% if asset_card.upper-text %}
+              <p class="upper-text">{{ asset_card.upper-text }}</p>
+            {% endif %}
+          </div>
+          <div class="content">
+            {{ asset_card.content | markdownify }}
+          </div>
+            <div class="tracker">
+              {% if asset_card.tracker-name %}
+              <p class="tracker-name">{{ asset_card.tracker-name }}</p>
+                {% for i in (1..asset_card.tracker-amount) %}
+                <span class="tracker-item">{{ i }}</span> 
+                {% endfor %}
+              {% endif %}
+            </div>
+
+          </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 ---
 layout: test
-title: Universiity
+title: University
 type: Estate
 permalink: /asset-cards/university
 description: Asset card for the Arcanafinder

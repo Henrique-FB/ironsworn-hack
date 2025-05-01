@@ -1,7 +1,7 @@
 ---
 layout: asset-cards
 title: Asset Cards page
-permalink: asset-cards
+permalink: pages/asset-cards
 description: Test page
 ---
 

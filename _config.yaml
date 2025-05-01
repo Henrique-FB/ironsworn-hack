@@ -1,6 +1,6 @@
-title: Ironsworn-web
+title: Ironsworn-hack
 description: Web page for Ironsworn hack
 markdown: kramdown
 
-baseurl: 
+baseurl: /ironsworn-hack
 url: https://henrique-fb.github.io

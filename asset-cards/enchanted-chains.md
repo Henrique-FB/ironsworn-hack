@@ -1,7 +1,7 @@
 ---
 layout: test
 title: Enchanted Chains
-type: Estate
+type: Item
 permalink: /asset-cards/enchanted-chains
 description: Asset card for the Enchanted Chains
 ---

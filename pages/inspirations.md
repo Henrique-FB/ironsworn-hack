@@ -17,7 +17,7 @@ description: inspirations
 
 
 ## Anime
-- **Hai to Gensou no Grimgar** - Fantasy low magic "Weak dudes fight weak monsters*.
+- **Hai to Gensou no Grimgar** - Fantasy low magic "Weak dudes fight weak monsters".
 - **Megalobox** - Steampunkish "Underdog fights without tech". 
 - **Hellsing Ultimate** - Immaculate vibes.
 - **Rokka no Yuusha** - "Dude uses tricks to beat people that use magic".
@@ -33,6 +33,7 @@ description: inspirations
 ## Games
 - **Bloodborne** - Bleak setting where you hunt monsters. Need I say more.
 - **S.T.A.L.K.E.R Anomaly** - You have guns, you suck at the game, the game has monsters, the monsters don't suck at the game.
+- **Infra Arcana** - Traditional Roguelike where you fight against (more like hide from) horrific monsters with limited resources. 
 
 ## TTRPGs
 - **Ironsworn** - I mean.. yeah.
